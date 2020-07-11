@@ -8,7 +8,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Product</title>
+    <title>Town</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
@@ -16,13 +16,12 @@
             integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
             crossorigin="anonymous" type=""></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script type="text/javascript" src="../../../script/script.js"></script>
     <script>
         function checkParams() {
             var name = $('#names').val();
             var info = $('#infos').val();
 
-            if (name.length != 0 && info.length != 0) {
+            if (name.length !== 0 && info.length !== 0) {
                 $('#b1').removeAttr('disabled');
             } else {
                 $('#b1').attr('disabled', 'disabled');
