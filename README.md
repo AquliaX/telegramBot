@@ -1,6 +1,6 @@
 # telegramBot
 telegramBot is  is an web-application that advises the user various cities to visit
-
+# Database
 To connect to your database use these details:
 Server: sql7.freemysqlhosting.net
 Name: sql7353890
@@ -11,4 +11,6 @@ Port number: 3306
 phpMyAdmin
  http://www.phpmyadmin.co
  
- 
+ # Devtools
+ - JDK 1.8
+ - Intelij Idea
